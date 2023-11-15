@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A functional calculator coded with JavaScript. The user can perform operations of +, -, * and / with intigers or rational numbers. It also has the buttons of DEL to delete and AC to clear.\r To practice end to end testing i used cypress. I performed some simple tests of clicks to check if the outputs were what was expected.\r The npm command of npm test executes cypress testing.",
+  "main": "Calculator.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevSimplified/JavaScript-Simplified-Advanced-Projects.git#main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDevSimplified/JavaScript-Simplified-Advanced-Projects/issues"
+  },
+  "homepage": "https://github.com/WebDevSimplified/JavaScript-Simplified-Advanced-Projects/tree/main#readme",
+  "devDependencies": {
+    "cypress": "^13.5.1",
+    "http-server": "^14.1.1",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "start-server-and-test": "^2.0.2"
+  }
+}
